@@ -1,0 +1,28 @@
+body {
+    background-color: #C5D86D;
+    text-align: center;
+}
+
+button {
+    background-color: #Da4167;
+    color: #343A1A;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: #16001E;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+}
