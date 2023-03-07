@@ -1,0 +1,29 @@
+/*
+MY COLOR PALETTE
+Color 1 - #F5D7E3
+Color 2 - #4F5D2F
+Color 3 - #AA7DCE
+Color 4 - #48284A
+Color 5 - #FFCA3A
+*/
+
+body {
+    background-color: #F5D7E3;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Sono', sans-serif;
+    color: #48284A;
+    border: 3px solid white;
+    padding: 12px;
+    margin: auto;
+}
+
+.highlight {
+    color: #FFCA3A
+}
