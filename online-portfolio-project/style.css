@@ -134,6 +134,10 @@ p {
     border: 2px solid black;
     display: block;
     margin: auto;
+    font-family: "termina", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
      }
 
 
