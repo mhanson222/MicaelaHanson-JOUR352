@@ -22,7 +22,13 @@ h2{
     text-transform: uppercase;
     }
 
-#headshot, h1, h2 {
+#headshot, h1 {
+    float: right;
+    display: inline;
+    width: 49%;
+    }
+
+#headshot, h2 {
     float: right;
     display: inline;
     width: 49%;
@@ -69,6 +75,7 @@ p {
         font-weight: 900;
         font-style: normal;
         font-size: 40px;
+        text-transform: uppercase;
     }
     
 .nav a: hover {
