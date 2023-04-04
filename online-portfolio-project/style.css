@@ -1,25 +1,37 @@
 @media {
 
 h1{
-        
+    font-family: termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 110px;
+    color: none;
+    text-shadow: 0px 0px 0px black;
     }
 
 h2{
         
     }
+    
 .container-fluid {
     background-color: green;
     
 }
 
+.nav a: hover{
+        background-color: white
+        color: black
+    }
+    
 #headshot {
-    width:300px;
+    width:200px;
     padding:0px;
     margin:20px 0px 20px 40px;
-    border-radius: 500px;
+    border: 2px solid black;
+    border-radius: 15px
 }
 
-button {
+#button {
     background-color:#E56B6F;
     border:0px;
     border-radius: 10px;
@@ -28,9 +40,13 @@ button {
     margin:10px;
 }
 
-button a {
-    color:white;
+#button a {
+    color:black;
     text-decoration: none;
+    font-family: termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
 }
 
  @media (min-width:576px) {
@@ -38,4 +54,9 @@ button a {
      #headshot {
         margin:10px 0px 0px 10px;
     }
+
+footer {
+    color: black
+    background-color: white
+     }
 }
