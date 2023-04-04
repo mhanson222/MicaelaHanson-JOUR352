@@ -11,6 +11,7 @@ h1{
     font-size: 140px;
     color: white;
     text-transform: uppercase;
+    
     }
 
 h2{
@@ -22,17 +23,6 @@ h2{
     text-transform: uppercase;
     }
 
-#headshot, h1 {
-    float: right;
-    display: inline;
-    width: 49%;
-    }
-
-#headshot, h2 {
-    float: right;
-    display: inline;
-    width: 49%;
-    }
 
 h3 {
     display: block;
@@ -103,11 +93,10 @@ p {
     }
     
 #headshot {
-    width:200px;
+    width:100%;
     padding:0px;
-    margin:20px 0px 20px 40px;
-    border: 2px solid black;
-    border-radius: 550px;
+    margin:25px 30px 30px 20px;
+    border: 3px solid black;
 }
 
 #button {
@@ -138,6 +127,7 @@ p {
     font-weight: 500;
     font-style: normal;
     font-size: 15px;
+    padding: 20px 0px 20px 20px;
      }
 
 
@@ -147,6 +137,9 @@ p {
         margin:10px 0px 0px 10px;
     }
 
+@media (min-width: 992px) {
+         
+     }
 
 }
 }
