@@ -11,8 +11,6 @@ h1{
     font-size: 140px;
     color: white;
     text-transform: uppercase;
-    float: right;
-    
     }
 
 h2{
@@ -24,10 +22,16 @@ h2{
     text-transform: uppercase;
     }
 
+#headshot, h1, h2 {
+    float: right;
+    display: inline;
+    width: 49%;
+    }
+
 h3 {
     display: block;
     margin: auto;
-    font-family:c termina, sans-serif;
+    font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 60px;
@@ -35,7 +39,7 @@ h3 {
     text-transform: uppercase;
     }
 
-h4, h5, h6, p {
+h4, h5, h6, {
     display: block;
     margin: auto;
     font-family: termina, sans-serif;
@@ -44,7 +48,17 @@ h4, h5, h6, p {
     font-size: 35px;
     color: #3D0148;
     }
- 
+
+p {
+    display: block;
+    margin: auto;
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    color: #3D0148;
+    }
+
 .nav a {
         display:block;
         margin: auto;
