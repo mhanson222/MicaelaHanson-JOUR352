@@ -8,9 +8,8 @@ h1{
     font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 110px;
+    font-size: 140px;
     color: white;
-    border: 2px solid black;
     }
 
 h2{
@@ -76,4 +75,5 @@ h4, h5, h6, p {
     background-color: white
     border: 2px solid black;
      }
+}
 }
