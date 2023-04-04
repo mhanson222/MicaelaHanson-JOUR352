@@ -91,7 +91,7 @@ p {
         text-transform: uppercase;
     }
     
-.nav a: hover {
+.nav a:hover {
        color: #3D0148; 
     }
     
@@ -120,6 +120,7 @@ p {
     font-size: 20px;
 }
 
+
 #footer {
     color: black;
     background-color: white;
@@ -136,7 +137,7 @@ p {
 
  @media (min-width:576px) {
   
-     #headshot {
+#headshot {
         margin:10px 0px 0px 10px;
     }
 
