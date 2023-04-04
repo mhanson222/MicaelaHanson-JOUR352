@@ -11,7 +11,8 @@ h1{
     font-size: 140px;
     color: white;
     text-transform: uppercase;
-    
+    display: block;
+    margin: auto;
     }
 
 h2{
@@ -21,6 +22,8 @@ h2{
     font-size: 80px;
     color: black;
     text-transform: uppercase;
+    display: block;
+    margin: auto;
     }
 
 
