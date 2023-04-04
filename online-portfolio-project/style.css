@@ -21,14 +21,28 @@ h2{
     }
 
 h3 {
-    
+    display: block;
+    margin: auto;
+    font-family:c termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    outline-color: black
     }
 
 h4, h5, h6, p {
-        
+    display: block;
+    margin: auto;
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #3D0148
     }
  
 .nav a {
+        display:block;
+        margin: auto;
         background-color: white;
         border: 2px solid black;
         color: black;
@@ -38,12 +52,16 @@ h4, h5, h6, p {
         font-size: 40px;
     }
     
+.nav a: hover {
+       color: #3D0148 
+    }
+    
 #headshot {
     width:200px;
     padding:0px;
     margin:20px 0px 20px 40px;
     border: 2px solid black;
-    border-radius: 15px
+    border-radius: 500px
 }
 
 #button {
@@ -61,8 +79,17 @@ h4, h5, h6, p {
     font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
 }
+
+.footer {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+     }
+
 
  @media (min-width:576px) {
   
@@ -70,10 +97,6 @@ h4, h5, h6, p {
         margin:10px 0px 0px 10px;
     }
 
-.footer {
-    color: black;
-    background-color: white
-    border: 2px solid black;
-     }
+
 }
 }
