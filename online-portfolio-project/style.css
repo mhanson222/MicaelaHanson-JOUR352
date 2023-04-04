@@ -21,7 +21,14 @@ h2{
     color: black;
     }
 
+h3 {
+    
+    }
 
+h4, h5, h6, p {
+        
+    }
+ 
 .nav a {
         background-color: white;
         border: 2px solid black;
