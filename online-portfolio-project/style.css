@@ -45,7 +45,27 @@ h3 {
     text-transform: uppercase;
     }
 
-h4, h5, h6, {
+h4 {
+    display: block;
+    margin: auto;
+    font-family: "termina", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #3D0148;
+    }
+
+h5 {
+    display: block;
+    margin: auto;
+    font-family: "termina", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #3D0148;
+    }
+
+h6 {
     display: block;
     margin: auto;
     font-family: "termina", sans-serif;
@@ -108,7 +128,7 @@ p {
     font-size: 20px;
 }
 
-.footer {
+#footer {
     color: black;
     background-color: white;
     border: 2px solid black;
