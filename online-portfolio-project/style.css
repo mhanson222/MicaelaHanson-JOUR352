@@ -4,91 +4,93 @@
         background-color: #B7CC97;
     }
 
-h1{
-    font-family: "termina", sans-serif;
+h1 {
+    font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 140px;
+    font-size: 80px;
     color: white;
     text-transform: uppercase;
-    display: block;
-    margin: auto;
+    text-align: right;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 20px 5px 20px;
     }
 
-h2{
-    font-family: "termina", sans-serif;
+h2 {
+    font-family: termina, sans-serif;
     font-weight: 500;
-    font-style: normal;
+    font-style: 10em;
     font-size: 80px;
     color: black;
     text-transform: uppercase;
-    display: block;
-    margin: auto;
+    text-align: right;
+    padding: 0px 20px 5px 20px;
     }
 
 
 h3 {
-    display: block;
-    margin: auto;
-    font-family: "termina", sans-serif;
+    font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 60px;
     color: black;
     text-transform: uppercase;
+    text-align: center;
     }
 
 h4 {
     display: block;
     margin: auto;
-    font-family: "termina", sans-serif;
-    font-weight: 500;
+    font-family: termina, sans-serif;
+    font-weight:500;
     font-style: normal;
-    font-size: 35px;
+    font-size: 40px;
     color: #3D0148;
+    text-align: center;
     }
 
 h5 {
     display: block;
     margin: auto;
-    font-family: "termina", sans-serif;
-    font-weight: 500;
+    font-family: termina, sans-serif;
+    font-weight:500;
     font-style: normal;
     font-size: 35px;
     color: #3D0148;
+    text-align: center;
     }
 
 h6 {
     display: block;
     margin: auto;
-    font-family: "termina", sans-serif;
-    font-weight: 500;
+    font-family: termina, sans-serif;
+    font-weight:500;
     font-style: normal;
-    font-size: 35px;
+    font-size: 30px;
     color: #3D0148;
+    text-align: center;
     }
 
 p {
     display: block;
     margin: auto;
-    font-family: "termina", sans-serif;
+    font-family: termina, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     color: #3D0148;
+    text-align: center;
     }
 
 .nav a {
-        display:block;
-        margin: auto;
-        background-color: white;
-        border: 2px solid black;
-        color: black;
-        font-family: "termina", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-        font-size: 40px;
-        text-transform: uppercase;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-family: termina, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;   
     }
     
 .nav a:hover {
@@ -96,8 +98,7 @@ p {
     }
     
 #headshot {
-    width:100%;
-    padding:0px;
+    width:150px;
     margin:25px 30px 30px 20px;
     border: 3px solid black;
 }
@@ -105,35 +106,47 @@ p {
 #button {
     background-color:#3D0148;
     border:0px;
-    border-radius: 10px;
+    border-radius: 30px;
     padding:10px 30px 10px 30px;
-    text-transform:uppercase;
-    margin:10px;
+    text-transform: uppercase;
 }
 
 #button a {
     color:white;
     text-decoration: none;
-    font-family: "termina", sans-serif;
+    font-family: termina, sans-serif;
     font-weight: 900;
     font-style: normal;
     font-size: 20px;
+    text-align: right;
 }
+
+#button a:hover {
+    color: black;    
+    }
 
 
 #footer {
     color: black;
     background-color: white;
     border: 2px solid black;
-    display: block;
-    margin: auto;
-    font-family: "termina", sans-serif;
+    font-family: termina, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 15px;
-    padding: 20px 0px 20px 20px;
+    text-align:center;
      }
 
+li {
+    color: #3D0148;
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    }
+    
+}
 
  @media (min-width:576px) {
   
@@ -141,9 +154,5 @@ p {
         margin:10px 0px 0px 10px;
     }
 
-@media (min-width: 992px) {
-         
-     }
 
-}
 }
