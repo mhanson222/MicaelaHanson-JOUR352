@@ -1,6 +1,11 @@
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .quote {
-    color:cadetblue;
-    font-size: 30px;
+    color:red;
+    font-size: 32px;
 }
 
 .pullquote {
