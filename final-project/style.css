@@ -2,8 +2,10 @@ img {
     width: 100%;
 }
 
-h1 {
+.header-content{
     font-size: 35px;
+    position: absolute;
+    bottom: 0;
 }
 
 h4 {
