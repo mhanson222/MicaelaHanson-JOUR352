@@ -11,15 +11,32 @@ img {
     position: absolute;
     bottom: 0;
     color:white;
-    margin: 0px, 0px, 0px, 100px;
+}
+
+.content {
+    background-color: 
 }
 
 h2 {
     0px, 0px, 50px, 0px;
 }
 
+h3 {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
 h4 {
     font-size: 25px;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    margin-left: 425px;
+    margin-right: 425px;
 }
 
 p {
@@ -29,7 +46,9 @@ p {
 
 .quote {
     color:red;
-    font-size: 35px;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
 }
 
