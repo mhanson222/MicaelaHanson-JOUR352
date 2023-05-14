@@ -2,12 +2,16 @@ img {
     width: 100%;
 }
 
+#topper-col {
+    padding: 0px;
+}
+
 .header-content{
     font-size: 35px;
     position: absolute;
     bottom: 0;
     color:white;
-    margin: 0px, 0px, 0px, 20px;
+    margin: 0px, 0px, 0px, 100px;
 }
 
 h2 {
@@ -26,6 +30,7 @@ p {
 .quote {
     color:red;
     font-size: 35px;
+    text-align: center;
 }
 
 .pullquote {
